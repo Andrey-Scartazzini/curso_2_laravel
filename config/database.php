@@ -41,16 +41,16 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' =>'127.0.0.1',
+            'host' => 'localhost',
             'port' => '3306',
-            'database' => 'curso_1',
-            'username' => 'root',
-            'password' => 'vertrigo',
+            'database' =>'estoque_laravel',
+            'username' =>'root',
+            'password' =>'vertrigo',
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
-            'strict' => true,
+            'strict' => false,
             'engine' => null,
         ],
 
